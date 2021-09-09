@@ -3,6 +3,9 @@ def fizzbuzz(number)
     return "buzz"
   elsif number == 15
     return "fizzbuzz"
+  elsif number == 3
+    return "fizz"
+  elsif number != 5 || number != 15
+    return number.to_s
   end
-  return "fizz"
 end
