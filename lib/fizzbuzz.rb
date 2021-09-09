@@ -5,7 +5,6 @@ def fizzbuzz(number)
     return "buzz"
   elsif number % 3 == 0
     return "fizz"
-  elsif number != 5 || number != 15
-    return number.to_s
   end
+  return number.to_s
 end
